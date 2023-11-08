@@ -6,7 +6,6 @@ pipeline {
 		stage(install){
 			steps{
 				    sh 'mvn clean install'
-			     
 			}
 			post{
 			    always{
